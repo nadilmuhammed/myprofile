@@ -80,6 +80,12 @@ body{
     border-radius: 5px;
     text-align: center;
     align-items: center;
+    transition: 2s;
+}
+
+.down-btn:hover{
+    background-color: var(--bg_color);
+    color: var(--text_color);
 }
 
 .down-btn span{

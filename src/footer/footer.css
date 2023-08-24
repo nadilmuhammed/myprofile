@@ -79,6 +79,23 @@ body{
     color: var(--main_color);
 }
 
+.footer-iconTop {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 6rem;
+}
+
+#footer-icon{
+    padding-top: 1rem;
+}
+
+#footer-icon a{
+    color: var(--text_color);
+}
+
+
+
 @media (max-width: 1200px) {
     html{
         font-size: 55%;

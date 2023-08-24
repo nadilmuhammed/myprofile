@@ -35,7 +35,7 @@ function Contact() {
                     <span className='focus'></span>
                 </div>
 
-                <div className="btn-box btns">
+                <div className="btn-box btns" id='call'>
                     <button type='submit' className='btn'>Submit</button>
                 </div>
 

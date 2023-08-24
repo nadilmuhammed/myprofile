@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from "./photo.png"
+import "./about.css"
 
 function About() {
   return (
@@ -17,8 +18,8 @@ function About() {
             <h3>Front End Developer</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse doloribus similique quas sed magni et accusamus, maxime ut, repellat numquam? Hic assumenda eaque natus. Nesciunt, sequi sed vero deserunt dignissimos pariatur voluptates nobis totam eaque assumenda quibusdam eius rem magni delectus doloremque ducimus vel perferendis dicta dolores quo neque?</p>
           </div>
-          <div className='btn-box btns'>
-            <a href="#" className="btn">Read More</a>
+          <div className='btn-box btns' id='abt-btn'>
+            <a href="#skills" className="btn">Read More</a>
           </div> 
       </section>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import {BiUpArrowAlt} from "react-icons/bi"
 import "./footer.css"
+import { FaGithub, FaHackerrank, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -12,7 +13,20 @@ function Footer() {
             </div>
 
             <div className="footer-iconTop">
-                <a href='#'><i><BiUpArrowAlt/></i></a>
+                <div className="home-icons" id='footer-icon'>
+                  <a href="https://github.com/nadilmuhammed">
+                    <FaGithub />
+                  </a>
+                  <a href="https://www.linkedin.com/in/nadil-muhammed-c-p-40b366276/">
+                    <FaLinkedin />
+                  </a>
+                  <a href="https://www.hackerrank.com/nadilmuhammedcp">
+                    <FaHackerrank />
+                  </a>
+                </div>
+                <div className='up-home'>
+                  <a href='#'><i><BiUpArrowAlt/></i></a>
+                </div>
             </div>
         </footer>
 
