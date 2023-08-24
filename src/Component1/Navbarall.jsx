@@ -11,10 +11,14 @@ import { Button } from 'bootstrap';
 import cv from "./cv.png"
 
 function Navbarall() {
+
+window.onscroll = () => {
+  let alnav  = document.querySelector('.allnav');
+  alnav.classList.toggle('sticky', window.scrollY > 100);
+}
+
   return (
-   
     <>
-    <div>
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary main-nav">
       <Container fluid className='allnav'>
         <Navbar.Brand className='brand' href="#home">Nadil.</Navbar.Brand>
@@ -31,7 +35,6 @@ function Navbarall() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
     </>
   );
 }

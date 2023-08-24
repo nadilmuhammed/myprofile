@@ -47,7 +47,6 @@ function Main() {
     <>
       <Navbarall />
       <section className="home" id="home">
-        <div>
           <div className="home-content">
             <h1>
               Hi, Iam <span>Nadil Muhammed c p</span>
@@ -70,8 +69,7 @@ function Main() {
                 Lets talk
               </a>
             </div>
-          </div>
-          <div className="home-icons">
+            <div className="home-icons">
             <a href="#">
               <FaGithub />
             </a>
@@ -82,7 +80,7 @@ function Main() {
               <FaHackerrank />
             </a>
           </div>
-        </div>
+          </div>
         <div id="home-img">
           <img className="home-img" src={img1} alt="" />
         </div>

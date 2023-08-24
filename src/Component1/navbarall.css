@@ -27,6 +27,10 @@ body{
     color: var(--text_color);
 }
 
+.allnav.sticky {
+    background: yellowgreen;
+}
+
 .main-nav {
     /* padding: 2rem; */
     position: fixed;
@@ -36,6 +40,7 @@ body{
 .allnav{
     padding: 2rem;
     background: var(--bg_color);
+    transition: .5s;
 }
 
 .brand{
@@ -73,9 +78,13 @@ body{
     background: transparent;
     border: 2px solid var(--main_color);
     border-radius: 5px;
+    text-align: center;
+    align-items: center;
 }
 
 .down-btn span{
     color: var(--text_color);
     font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
 }
