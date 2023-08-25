@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "poppins";
+    scroll-behavior: smooth;
+    text-decoration: none;  
+    
+}
+
+:root{
+    --bg_color:#081b29;
+    --second_bg_color:#112e42;
+    --text_color:#ededed;
+    --main_color:#00abf0;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg_color);
+    color: var(--text_color);
+}
+
+.allnav.sticky {
+    background: yellowgreen;
+}
+
+.main-nav {
+    /* padding: 2rem; */
+    position: fixed;
+    width: 100%;
+}
+
+.allnav{
+    padding: 2rem;
+    background: var(--bg_color);
+    transition: .5s;
+}
+
+.brand{
+    color: var(--text_color);
+    font-size: 2.5rem;
+}
+
+.all-link{
+    padding: 1rem;
+    color: var(--text_color);
+    gap: 3rem;
+    transition: .5s;
+}
+
+.toggle button{
+    color: var(--text_color);
+}
+
+.link:hover{
+    color: var(--main_color);
+}
+
+.all-link Nav.Link:hover,
+.all-link Nav.Link.active{
+    color: var(--main_color);
+}
+
+.link{
+    color: var(--text_color);
+    font-size: 1.5rem;
+}
+
+.down-btn{
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid var(--main_color);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.down-btn:hover{
+    background-color: var(--bg_color);
+    color: var(--text_color);
+}
+
+.down-btn span{
+    color: var(--text_color);
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
