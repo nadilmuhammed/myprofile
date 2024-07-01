@@ -31,6 +31,12 @@ body{
     background: yellowgreen;
 }
 
+.allnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .main-nav {
     /* padding: 2rem; */
     position: fixed;
@@ -49,6 +55,9 @@ body{
 }
 
 .all-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     color: var(--text_color);
     gap: 3rem;
